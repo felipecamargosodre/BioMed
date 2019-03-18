@@ -13,4 +13,4 @@ Peço a todos atenção máxima com os prazos a seguir:
  - 03/06 - Código fonte
  - 11/06 - Apresentação
  
- Assim que a tarefa for concluida, a mesma tera que ser checada em Issues, afim de manter a organização do grupo com os prazos e atividades.
+ Assim que a tarefa for concluida, a mesma tera que ser checada em Issues, afim de manter a organização do grupo com os prazos e atividades. Agradeço a todos pela atenção. Let's rock!!!
