@@ -1,5 +1,5 @@
 # BioMed
-PIM - UNIP SOROCABA - 2019
+PIM ADS 2019- UNIP SOROCABA
 
    As seguintes tarefas precisam ser finalizadas até a data vigente. Após a data constatada, a penalidade será de 0,5 pontos, na média final do trabalho, por semana decorrida.
 Peço a todos atenção máxima com os prazos a seguir:
