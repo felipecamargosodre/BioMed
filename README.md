@@ -6,7 +6,7 @@ Peço a todos atenção máxima com os prazos a seguir:
 
  - 18/03 - Requisitos Funcionais e Não Funcionais - CHECK
  - 15/04 - Casos de uso - CHECK
- - 22/04 - Diagrama de sequência
+ - 22/04 - Diagrama de sequência - CHECK
  - 29/04 - Modelo conceitual BD
  - 06/05 - Modelo lógico e físico BD
  - 13/05 - Diagrama de classes
