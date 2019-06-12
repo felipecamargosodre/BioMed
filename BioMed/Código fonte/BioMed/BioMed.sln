@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioMed", "BioMed.csproj", "{2D7CE574-30D6-4A0F-A65B-5FD6A5B70AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D7CE574-30D6-4A0F-A65B-5FD6A5B70AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7CE574-30D6-4A0F-A65B-5FD6A5B70AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7CE574-30D6-4A0F-A65B-5FD6A5B70AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7CE574-30D6-4A0F-A65B-5FD6A5B70AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FAF7341-52C7-4931-9CF4-C5AD8FB3F47C}
+	EndGlobalSection
+EndGlobal

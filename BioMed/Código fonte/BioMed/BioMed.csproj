@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D7CE574-30D6-4A0F-A65B-5FD6A5B70AFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BioMed</RootNamespace>
+    <AssemblyName>BioMed</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CircularProgressBar, Version=2.7.0.7, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>packages\CircularProgressBar.2.7.0.7\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Correios, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Correios-Api.1.1.1\lib\portable-net45+win\Correios.dll</HintPath>
+    </Reference>
+    <Reference Include="ExtendedRichTextBox, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ExtendedRichTextBox.1.1.0\lib\net40\ExtendedRichTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apresentacao\frmAdicionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmAdicionar.Designer.cs">
+      <DependentUpon>frmAdicionar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmAdministrador.Designer.cs">
+      <DependentUpon>frmAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmBio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmBio.Designer.cs">
+      <DependentUpon>frmBio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmConsultas.Designer.cs">
+      <DependentUpon>frmConsultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmCoordenador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmCoordenador.Designer.cs">
+      <DependentUpon>frmCoordenador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmExamesConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmExamesConsultas.Designer.cs">
+      <DependentUpon>frmExamesConsultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmHema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmHema.Designer.cs">
+      <DependentUpon>frmHema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmHistorico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmHistorico.Designer.cs">
+      <DependentUpon>frmHistorico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmMicro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmMicro.Designer.cs">
+      <DependentUpon>frmMicro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\Form1.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmCadastroPaci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmCadastroPaci.Designer.cs">
+      <DependentUpon>frmCadastroPaci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmCadastroUsu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmCadastroUsu.Designer.cs">
+      <DependentUpon>frmCadastroUsu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmExames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmExames.Designer.cs">
+      <DependentUpon>frmExames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmPesquisaPaci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmPesquisaPaci.Designer.cs">
+      <DependentUpon>frmPesquisaPaci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmPesquisaUsu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmPesquisaUsu.Designer.cs">
+      <DependentUpon>frmPesquisaUsu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmProcurar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmProcurar.Designer.cs">
+      <DependentUpon>frmProcurar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmTriagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmTriagem.Designer.cs">
+      <DependentUpon>frmTriagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\frmUri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\frmUri.Designer.cs">
+      <DependentUpon>frmUri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Conexao.cs" />
+    <Compile Include="DAL\LoginDaoComandos.cs" />
+    <Compile Include="Modelo\Controle.cs" />
+    <Compile Include="Modelo\Estaticos.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Apresentacao\frmAdicionar.resx">
+      <DependentUpon>frmAdicionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmAdministrador.resx">
+      <DependentUpon>frmAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmBio.resx">
+      <DependentUpon>frmBio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmConsultas.resx">
+      <DependentUpon>frmConsultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmCoordenador.resx">
+      <DependentUpon>frmCoordenador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmCadastroPaci.resx">
+      <DependentUpon>frmCadastroPaci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmCadastroUsu.resx">
+      <DependentUpon>frmCadastroUsu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmExames.resx">
+      <DependentUpon>frmExames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmExamesConsultas.resx">
+      <DependentUpon>frmExamesConsultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmHema.resx">
+      <DependentUpon>frmHema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmHistorico.resx">
+      <DependentUpon>frmHistorico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmMicro.resx">
+      <DependentUpon>frmMicro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmPesquisaPaci.resx">
+      <DependentUpon>frmPesquisaPaci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmPesquisaUsu.resx">
+      <DependentUpon>frmPesquisaUsu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmProcurar.resx">
+      <DependentUpon>frmProcurar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmTriagem.resx">
+      <DependentUpon>frmTriagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\frmUri.resx">
+      <DependentUpon>frmUri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icones\256x256.png" />
+    <Content Include="Icones\6708b603b9f0f028ffa01238feff3b98.fw.png" />
+    <Content Include="Icones\add-file.png" />
+    <Content Include="Icones\avatar.png" />
+    <Content Include="Icones\BioMedLogo.png" />
+    <Content Include="Icones\cancel.png" />
+    <Content Include="Icones\doctor.png" />
+    <Content Include="Icones\doctoradmin.png" />
+    <Content Include="Icones\employee.png" />
+    <Content Include="Icones\image.png" />
+    <Content Include="Icones\locked.png" />
+    <Content Include="Icones\minimize.png" />
+    <Content Include="Icones\padlock .png" />
+    <Content Include="Icones\padlock-unlock.png" />
+    <Content Include="Icones\padlock.png" />
+    <Content Include="Icones\save-icon-36535.png" />
+    <Content Include="Icones\save-icon-black and white.png" />
+    <Content Include="Icones\search.png" />
+    <Content Include="Icones\triagem.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
